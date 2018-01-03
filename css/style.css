@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+h1.title {
+  font-size: 3rem;
+  padding-top: 1em;
+}
+
+h2.title {
+  font-size: 1.5rem;
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Courgette", cursive;
+}
+
+h2, h4, h5 {
+  font-family: "Courgette", cursive;
+  color: #000;
+  opacity: 0.7;
+}
+
+header {
+  text-align: center;
+  background-color: #fff;
+}
+
+nav ul {
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 2em;
+  font-family: "Courgette", cursive;
+}
+
+nav a {
+  color: #49C3B4;
+  text-decoration: none;
+}
+
+nav li i.fa {
+  display: block;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.header {
+  text-align: center;
+  background-image: url(../img/fond.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  line-height: 3.5em;
+}
+
+.title {
+  font-family: "Courgette", cursive;
+  color: #fff;
+  background-color: #49C3B4;
+  opacity: 0.75;
+  margin: 0 auto;
+}
+
+.promotion {
+  color: #fff;
+  background-color: #49C3B4;
+  line-height: 3em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.promotion p {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+.description {
+  background-color: #fff;
+  padding: 1em;
+}
+
+.about {
+  background-color: #B7B12E;
+  text-align: center;
+}
+
+.about-item {
+  max-width: 30%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.about-item img {
+  max-width: 60%;
+}
+
+.about-item p {
+  color: #fff;
+}
+
+footer {
+  background-color: #49C3B4;
+  text-align: center;
+  line-height: 3em;
+}
+
+footer p {
+  color: #fff;
+  margin: 0 auto;
+}
+
+.tables, .forms {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+table, th, td {
+  padding: 10px;
+  border: 0.2px solid lightgrey;
+}
+
+table tbody {
+  font-size: 0.8rem;
+}
+
+thead th {
+  background-color: #49C3B4;
+  color: #fff;
+  font-family: "Courgette", cursive;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tbody tr td:first-child {
+  text-align: left;
+  width: 35%;
+}
+
+tbody tr td:last-child {
+  color: #49C3B4;
+}
+
+.input-fields {
+  color: #49C3B4;
+  text-align: left;
+  border-style: none;
+  border-bottom: 0.2px solid #49C3B4;
+}
+
+.selection {
+  color: #49C3B4;
+  background-color: #fff;
+  width: 85%;
+  border: 0.2px solid #49C3B4;
+}
+
+button {
+  color: #fff;
+  background-color: #49C3B4;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-color: #49C3B4;
+  margin: 1rem auto;
+}

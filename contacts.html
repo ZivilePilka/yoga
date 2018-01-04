@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Ila Yoga Contacts</title>
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
@@ -109,43 +109,51 @@
         </table>
       </section>
       <section class="forms">
-        <h4>
-          Pour valider votre reservation, competer ce formulaire:
-        </h4>
         <form>
-          <input type="text" name="full_name" placeholder="Votre prenom" class="input-fields">
-          <input type="text" name="full_name" placeholder="Votre nom" class="input-fields">
-        </form>
-        <form>
-          <input type="text" name="full_name" placeholder="Votre adress mail" class="selection">
-        </form>
-        <h5>
-          Quels sont les raisons de votre venue?
-        </h5>
-        <form>
-          <input type="checkbox" name="value1"> Besoin de me detendre
-          <input type="checkbox" name="value2"> Mon medecin m'a conseille de venir
-          <input type="checkbox" name="value3"> Je veux tester avec des amis
-        </form>
-        <h5>
-          Voulez-vous souscrire a notre programme de fidelite?
-        </h5>
-        <form>
-          <input type="radio" name="answer-yes">
-            Oui
-          <input type="radio" name="answer-no">
-            Non
-        </form>
-        <h5>
-          Comment avez-vous connu Omnibus?
-        </h5>
-        <form>
-          <select class="selection">
-            <option value="ineternet">Par internet</option>
-            <option value="facebook">Facebook</option>
-            <option value="instagram">Instagram</option>
-            <option value="recomendations">Recommendations</option>
-          </select>
+          <div class="form">
+            <h4>
+              Pour valider votre reservation, competer ce formulaire:
+            </h4>
+            <input type="text" name="prenom" placeholder="Votre prenom" class="input left">
+            <input type="text" name="nom" placeholder="Votre nom" class="input right">
+            <input type="text" name="mail" placeholder="Votre adress mail" class="input">
+          </div>
+          <div class="form">
+            <h5>
+              Quels sont les raisons de votre venue?
+            </h5>
+            <label>
+              <input type="checkbox" name="value1"> Besoin de me detendre
+            </label>
+            <label>
+              <input type="checkbox" name="value2"> Mon medecin m'a conseille de venir
+            </label>
+            <label>
+              <input type="checkbox" name="value3"> Je veux tester avec des amis
+            </label>
+          </div>
+          <div class="form">
+            <h5>
+              Voulez-vous souscrire a notre programme de fidelite?
+            </h5>
+            <label>
+              <input type="radio" name="checked"> Oui
+            </label>
+            <label>
+              <input type="radio" name="checked"> Non
+            </label>
+          </div>
+          <div class="form">
+            <h5>
+              Comment avez-vous connu Omnibus?
+            </h5>
+            <select name="selection" class="selection">
+              <option value="ineternet">Par internet</option>
+              <option value="facebook">Facebook</option>
+              <option value="instagram">Instagram</option>
+              <option value="recomendations">Recommendations</option>
+            </select>
+          </div>
         </form>
         <button type="button">
           Envoyer
